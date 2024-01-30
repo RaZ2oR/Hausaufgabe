@@ -1,0 +1,10 @@
+.box {
+    border: 5px solid green; /*border*/
+    display: inline-block;
+    padding: 5px 20px; /*Der Abstand wird innerhalb eines Rahmens beeinflusst*/
+    margin: 20px; /*Der Abstand wird außerhalb des Rahmens beeinflusst*/
+    width: 50px; /*Breite*/
+    height: 50px; /*Höhe*/
+    text-align: center; /*Text-Ausrichtung*/
+}
+

@@ -1,0 +1,104 @@
+/* CSS - cascading style sheet
+Selector {
+    Property: value;
+} 
+
+* für alles
+tag für die html elemente
+# für eine id
+. für eine class
+
+
+element {...}
+element, element {...}
+element1 element2 {...} wenn element 2 in element 1 vorhanden
+element1 > element2 {...} element 2, welches unmitelbar element1 darüber hat
+element1 + element2 {...} element 2 unmittelbar nach element 1
+
+element:hover {} wenn man mit der Maus über dem element ist
+
+element !important
+
+Specificity
+je speziefischer desto höhere Prio
+
+id > class > html-tag
+
+*/
+
+* {
+    color: rgb(23, 1, 170);
+}
+
+/* #p1 {
+    color: red;
+}
+#p2 {
+    color: orange;
+}
+#p3 {
+    color: yellow;
+}
+#p4 {
+    color: green;
+} */
+
+body {
+    background-color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #0C689A;
+    text-align:center;
+    border: 10px solid rgba(255, 0, 76, 0.476);
+    cursor: pointer;
+    background-color: rgb(242, 178, 7, 0.9);
+}
+
+h1:hover {
+    color: black;
+}
+
+p {
+    color: #0C689A;
+    text-align:center;
+    border: 5px dashed rgb(242, 60, 7, 0.5);
+    background-color: rgb(242, 178, 7, 0.9);
+
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.a {
+    color: green;
+}
+
+.b {
+    color: blueviolet;
+}
+
+h2 + p{
+    color: black
+}
+
+
+
+
+/* 
+Selector
+
+
+
+*/
